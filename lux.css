@@ -47,6 +47,12 @@
     --font-size-larger: 20px;
 
     /* Sizes */
+    --width-smaller: 200px;
+    --width-small: 400px;
+    --width-medium: 800px;
+    --width-large: 1200px;
+    --width-larger: 1600px;
+
     --height-smaller: 80px;
     --height-small: 120px;
     --height-medium: 240px;
@@ -155,6 +161,14 @@ hr {
     flex-grow: 1;
 }
 
+.alignCenter {
+    align-items: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
 .breathable {
     margin: var(--space-small);
 }
@@ -213,7 +227,52 @@ hr {
     min-height: var(--height-larger);
 }
 
+.minimumWidthSmaller {
+    min-width: var(--width-smaller);
+}
+
+.minimumWidthSmall {
+    min-width: var(--width-small);
+}
+
+.minimumWidthMedium {
+    min-width: var(--width-medium);
+}
+
+.minimumWidthLarge {
+    min-width: var(--width-large);
+}
+
+.minimumWidthLarger {
+    min-width: var(--width-larger);
+}
+
+.maximumWidthSmaller {
+    max-width: var(--width-smaller);
+}
+
+.maximumWidthSmall {
+    max-width: var(--width-small);
+}
+
+.maximumWidthMedium {
+    max-width: var(--width-medium);
+}
+
+.maximumWidthLarge {
+    max-width: var(--width-large);
+}
+
+.maximumWidthLarger {
+    max-width: var(--width-larger);
+}
+
+
 /* Weight */
+
+.weightNone {
+    flex-grow: 0;
+}
 
 .weightSmaller {
     flex-grow: var(--weight-smaller);
@@ -235,6 +294,22 @@ hr {
     flex-grow: var(--weight-larger);
 }
 
+.expandingWidth {
+    width: 100%;
+}
+
+.expandingHeight {
+    height: 100%;
+}
+
+.contractingWidth {
+    width: 0;
+}
+
+.contractingHeight {
+    height: 0;
+}
+
 /* Aesthetic */
 
 .card {
@@ -246,6 +321,123 @@ hr {
 .card .card {
     border: var(--border);
 }
+
+.textAlignStart {
+    text-align: start;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.textAlignEnd {
+    text-align: end;
+}
+
+/* Colors */
+
+.backgroundColorForeground {
+    background-color: var(--foreground-color);
+}
+
+.backgroundColorForegroundSpecial {
+    background-color: var(--foreground-color-special);
+}
+
+.backgroundColorBackground {
+    background-color: var(--background-color);
+}
+
+.backgroundColorBackgroundSpecial {
+    background-color: var(--background-color-special);
+}
+
+.backgroundColorInputBackgroundColor {
+    background-color: var(--input-background-color);
+}
+
+.backgroundColorInputBackgroundColorSpecial {
+    background-color: var(--input-background-color-special);
+}
+
+.backgroundColorInputForegroundColor {
+    background-color: var(--input-foreground-color);
+}
+
+.backgroundColorAccentColor {
+    background-color: var(--accent-color);
+}
+
+.backgroundColorAccentColorSpecial {
+    background-color: var(--accent-color-special);
+}
+
+.backgroundColorBorderColor {
+    background-color: var(--border-color);
+}
+
+.foregroundColorForeground {
+    color: var(--foreground-color);
+}
+
+.foregroundColorForegroundSpecial {
+    color: var(--foreground-color-special);
+}
+
+.foregroundColorBackground {
+    color: var(--background-color);
+}
+
+.foregroundColorBackgroundSpecial {
+    color: var(--background-color-special);
+}
+
+.foregroundColorInputBackgroundColor {
+    color: var(--input-background-color);
+}
+
+.foregroundColorInputBackgroundColorSpecial {
+    color: var(--input-background-color-special);
+}
+
+.foregroundColorInputForegroundColor {
+    color: var(--input-foreground-color);
+}
+
+.foregroundColorAccentColor {
+    color: var(--accent-color);
+}
+
+.foregroundColorAccentColorSpecial {
+    color: var(--accent-color-special);
+}
+
+.foregroundColorBorderColor {
+    color: var(--border-color);
+}
+
+/* Typography */
+
+.fontSizeSmaller {
+    font-size: var(--font-size-smaller);
+}
+
+.fontSizeSmall {
+    font-size: var(--font-size-small);
+}
+
+.fontSizeMedium {
+    font-size: var(--font-size-medium);
+}
+
+.fontSizeLarge {
+    font-size: var(--font-size-large);
+}
+
+.fontSizeLarger {
+    font-size: var(--font-size-larger);
+}
+
 
 /* Inputs */
 
