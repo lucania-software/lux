@@ -1,15 +1,19 @@
 :root {
     /* Colors */
-    --foreground-color-special: #ffffff;
-    --foreground-color: #cccccc;
-    --background-color: #1a1a1a;
-    --background-color-special: #000000;
-    --background-color-special: #0A0A0A;
-    --input-background-color: #252525;
-    --input-background-special: #2A2A2A;
+    --foreground-color: #333333;
+    --foreground-color-special: #222222;
+
+    --background-color: #ffffff;
+    --background-color-special: #cccccc;
+
+    --input-background-color: #cccccc;
+    --input-background-color-special: #d6d6d6;
+    --input-foreground-color: #000000;
+    --input-foreground-color-special: #ffffff;
+
     --accent-color: #0070A0;
     --accent-color-special: #2090D0;
-    --border-color: #303030;
+    --border-color: #dddddd;
 
     /* Spacing */
     --space-smaller: 4px;
@@ -41,6 +45,13 @@
     --font-size-medium: 16px;
     --font-size-large: 18px;
     --font-size-larger: 20px;
+
+    /* Sizes */
+    --height-smaller: 80px;
+    --height-small: 120px;
+    --height-medium: 240px;
+    --height-large: 400px;
+    --height-larger: 800px;
 
     /* Borders */
     --border-width: 1px;
@@ -94,6 +105,7 @@ h6 {
 }
 
 label {
+    user-select: none;
     font-size: var(--font-size-small);
 }
 
@@ -169,7 +181,36 @@ hr {
 .radioContainer {
     display: grid;
     grid-template-columns: 0fr 1fr;
+    align-items: center;
+    justify-items: left;
     gap: var(--space-small);
+}
+
+.checkboxContainer>label,
+.radioContainer>label,
+.checkboxContainer>input,
+.radioContainer>input {
+    cursor: pointer;
+}
+
+.minimumHeightSmaller {
+    min-height: var(--height-smaller);
+}
+
+.minimumHeightSmall {
+    min-height: var(--height-small);
+}
+
+.minimumHeightMedium {
+    min-height: var(--height-medium);
+}
+
+.minimumHeightLarge {
+    min-height: var(--height-large);
+}
+
+.minimumHeightLarger {
+    min-height: var(--height-larger);
 }
 
 /* Weight */
@@ -216,7 +257,7 @@ button {
     height: var(--input-size);
     padding: var(--space-smaller);
     background-color: var(--input-background-color);
-    color: var(--foreground-color);
+    color: var(--input-foreground-color);
     border: none;
     font-family: var(--font-family-regular);
     border-radius: var(--border-radius);
@@ -231,7 +272,7 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    background-color: var(--input-background-special);
+    background-color: var(--input-background-color-special);
 }
 
 input[type="button"],
@@ -243,7 +284,7 @@ input[type="range"]::-webkit-slider-thumb {
     width: 100%;
     height: var(--input-size);
     background-color: var(--accent-color);
-    color: var(--foreground-color);
+    color: var(--input-foreground-color-special);
     border: none;
     font-family: var(--font-family-regular);
     border-radius: var(--border-radius);
@@ -280,6 +321,7 @@ input[type="radio"]:checked {
 
 input[type="color"] {
     background-color: var(--accent-color);
+    cursor: pointer;
     padding: 0;
 }
 
@@ -337,6 +379,7 @@ input::-webkit-outer-spin-button {
 }
 
 input[type="range"] {
+    cursor: pointer;
     padding: 0;
 }
 
