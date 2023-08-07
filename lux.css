@@ -128,6 +128,10 @@ a:hover {
     color: var(--accent-color-special);
 }
 
+img {
+    width: 100%;
+}
+
 hr {
     display: block;
     height: 1px;
@@ -170,15 +174,15 @@ hr {
 }
 
 .breathable {
-    margin: var(--space-small);
+    padding: var(--space-small);
 }
 
 .breathableHorizontal {
-    margin: 0 var(--space-small) 0 var(--space-small);
+    padding: 0 var(--space-small) 0 var(--space-small);
 }
 
 .breathableVertical {
-    margin: var(--space-small) 0 var(--space-small) 0;
+    padding: var(--space-small) 0 var(--space-small) 0;
 }
 
 .inputContainer {
