@@ -338,6 +338,10 @@ hr {
     text-align: end;
 }
 
+.borderRadiusCircle {
+    border-radius: 50%;
+}
+
 /* Colors */
 
 .backgroundColorForeground {
