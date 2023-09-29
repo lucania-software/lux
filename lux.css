@@ -151,6 +151,16 @@ hr {
     gap: var(--space-small);
 }
 
+.rack {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    gap: var(--space-small);
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -165,12 +175,28 @@ hr {
     flex-grow: 1;
 }
 
+.alignStart {
+    align-items: flex-start;
+}
+
 .alignCenter {
     align-items: center;
 }
 
+.alignEnd {
+    align-items: flex-end;
+}
+
+.justifyStart {
+    justify-items: flex-start;
+}
+
 .justifyCenter {
-    justify-content: center;
+    justify-items: center;
+}
+
+.justifyEnd {
+    justify-items: flex-end;
 }
 
 .breathable {
@@ -183,6 +209,10 @@ hr {
 
 .breathableVertical {
     padding: var(--space-small) 0 var(--space-small) 0;
+}
+
+.gapless {
+    gap: 0;
 }
 
 .inputContainer {
