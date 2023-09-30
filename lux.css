@@ -188,15 +188,15 @@ hr {
 }
 
 .justifyStart {
-    justify-items: flex-start;
+    justify-content: flex-start;
 }
 
 .justifyCenter {
-    justify-items: center;
+    justify-content: center;
 }
 
 .justifyEnd {
-    justify-items: flex-end;
+    justify-content: flex-end;
 }
 
 .breathable {
