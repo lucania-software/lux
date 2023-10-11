@@ -390,27 +390,27 @@ hr {
     background-color: var(--background-color-special);
 }
 
-.backgroundColorInputBackgroundColor {
+.backgroundColorInputBackground {
     background-color: var(--input-background-color);
 }
 
-.backgroundColorInputBackgroundColorSpecial {
+.backgroundColorInputBackgroundSpecial {
     background-color: var(--input-background-color-special);
 }
 
-.backgroundColorInputForegroundColor {
+.backgroundColorInputForeground {
     background-color: var(--input-foreground-color);
 }
 
-.backgroundColorAccentColor {
+.backgroundColorAccent {
     background-color: var(--accent-color);
 }
 
-.backgroundColorAccentColorSpecial {
+.backgroundColorAccentSpecial {
     background-color: var(--accent-color-special);
 }
 
-.backgroundColorBorderColor {
+.backgroundColorBorder {
     background-color: var(--border-color);
 }
 
@@ -430,27 +430,27 @@ hr {
     color: var(--background-color-special);
 }
 
-.foregroundColorInputBackgroundColor {
+.foregroundColorInputBackground {
     color: var(--input-background-color);
 }
 
-.foregroundColorInputBackgroundColorSpecial {
+.foregroundColorInputBackgroundSpecial {
     color: var(--input-background-color-special);
 }
 
-.foregroundColorInputForegroundColor {
+.foregroundColorInputForeground {
     color: var(--input-foreground-color);
 }
 
-.foregroundColorAccentColor {
+.foregroundColorAccent {
     color: var(--accent-color);
 }
 
-.foregroundColorAccentColorSpecial {
+.foregroundColorAccentSpecial {
     color: var(--accent-color-special);
 }
 
-.foregroundColorBorderColor {
+.foregroundColorBorder {
     color: var(--border-color);
 }
 
