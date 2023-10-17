@@ -120,7 +120,7 @@ a {
     text-decoration: none;
     transition-delay: 0;
     transition-duration: var(--hover-transition-duration);
-    transition-property: background-color;
+    transition-property: color;
     transition-timing-function: ease;
 }
 
