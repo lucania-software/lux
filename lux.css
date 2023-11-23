@@ -34,6 +34,7 @@
 
     /* Fonts */
     --font-family-regular: arial;
+    --font-family-heading: arial;
     --font-weight-smaller: 200;
     --font-weight-small: 300;
     --font-weight-medium: 400;
@@ -107,6 +108,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: var(--font-family-heading);
     color: var(--foreground-color-special);
 }
 
@@ -187,6 +189,10 @@ hr {
     align-items: flex-end;
 }
 
+.alignStretch {
+    align-items: stretch;
+}
+
 .justifyStart {
     justify-content: flex-start;
 }
@@ -197,6 +203,10 @@ hr {
 
 .justifyEnd {
     justify-content: flex-end;
+}
+
+.justifyStretch {
+    justify-content: stretch;
 }
 
 .breathable {
@@ -476,6 +486,9 @@ hr {
     font-size: var(--font-size-larger);
 }
 
+.fontStyleItalic {
+    font-style: italic;
+}
 
 /* Inputs */
 
