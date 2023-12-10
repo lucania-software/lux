@@ -273,6 +273,27 @@ hr {
     min-height: var(--height-larger);
 }
 
+
+.maximumHeightSmaller {
+    max-height: var(--height-smaller);
+}
+
+.maximumHeightSmall {
+    max-height: var(--height-small);
+}
+
+.maximumHeightMedium {
+    max-height: var(--height-medium);
+}
+
+.maximumHeightLarge {
+    max-height: var(--height-large);
+}
+
+.maximumHeightLarger {
+    max-height: var(--height-larger);
+}
+
 .minimumWidthSmaller {
     min-width: var(--width-smaller);
 }
