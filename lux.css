@@ -513,6 +513,26 @@ hr {
     font-style: italic;
 }
 
+.fontWeightSmaller {
+    font-weight: var(--font-weight-smaller);
+}
+
+.fontWeightSmall {
+    font-weight: var(--font-weight-small);
+}
+
+.fontWeightMedium {
+    font-weight: var(--font-weight-medium);
+}
+
+.fontWeightLarge {
+    font-weight: var(--font-weight-large);
+}
+
+.fontWeightLarger {
+    font-weight: var(--font-weight-larger);
+}
+
 /* Inputs */
 
 input,
