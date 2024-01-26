@@ -4,12 +4,16 @@
 
 Lux is a pure, vanilla CSS stylesheet using variables to allow for user configuration!
 
-Simply [link `lux.css` into your HTML](#using-lux) to apply the default styling, and [overwrite any of the variables to customize your look](#customizing-lux).
+Simply [link `lux/main.css` into your HTML](#using-lux) to apply the default styling, and [overwrite any of the variables to customize your look](#customizing-lux).
 
 ### Using Lux
-Include this tag in the HTML you wish to style with Lux.
+It's recommended that you include this repository as a git submodule in your public static resources directory on your web server.
+
+`git submodule add git@github.com:lucania-software/lux.git <public directory>`
+
+Then, include this tag in the HTML you wish to style with Lux.
 ```HTML
-<link rel="stylesheet" href="lux.css">
+<link rel="stylesheet" href="/lux/main.css">
 ```
 
 ### Customizing Lux
